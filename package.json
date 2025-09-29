@@ -2,7 +2,6 @@
   "name": "music_sheet_distribution",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://junnosukemuto.github.io/music_sheet_distribution/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
