@@ -1,10 +1,11 @@
-import Image from "next/image";
+import Link from "next/link";
+import MyImage from "./_components/image_wrapper";
 
 export default function Home() {
   return (
     <>
       <div className="flex justify-center mt-8">
-        <Image
+        <MyImage
           src="/logo.png"
           alt=""
           width={128}
@@ -25,7 +26,7 @@ export default function Home() {
 
           <div className="card bg-base-100 shadow">
             <figure>
-              <Image
+              <MyImage
                 src="/thumbnails/haiboku.png"
                 alt=""
                 width={1280}
@@ -36,9 +37,9 @@ export default function Home() {
               <h2 className="card-title">敗北の少年　キーボードパート</h2>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">
-                  <a href="/sheets/haiboku.pdf" download="敗北の少年_キーボードパート譜面.pdf">
+                  <Link href="/sheets/haiboku.pdf" download="敗北の少年_キーボードパート譜面.pdf">
                     ダウンロード
-                  </a>
+                  </Link>
                 </button>
               </div>
             </div>

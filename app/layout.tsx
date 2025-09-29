@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
+import MyImage from "./_components/image_wrapper";
 
 export const metadata: Metadata = {
   title: "楽譜配布サイト | 武藤淳之助",
@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className="h-screen">
         <div className="navbar border-b border-base-300 px-4">
           <div className="flex-1">
-            <Image
+            <MyImage
               src="/header.png"
               alt="武藤淳之助"
               width={180}
@@ -31,7 +31,7 @@ export default function RootLayout({
               className="btn btn-ghost btn-square"
 
             >
-              <Image
+              <MyImage
                 src="/yt_icon.png"
                 alt="YouTubeチャンネル"
                 width={40}
