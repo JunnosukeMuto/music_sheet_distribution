@@ -5,8 +5,7 @@
   "homepage": "https://junnosukemuto.github.io/music_sheet_distribution/",
   "scripts": {
     "dev": "next dev",
-  "build": "next build",
-    "deploy": "gh-pages -d out",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -24,7 +23,6 @@
     "daisyui": "^5.1.25",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
