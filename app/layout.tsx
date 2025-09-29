@@ -15,6 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head>
+        {process.env.NODE_ENV === "production" && (
+          <base href="/music_sheet_distribution/" />
+        )}
+      </head>
       <body className="h-screen">
         <div className="navbar border-b border-base-300 px-4">
           <div className="flex-1">
