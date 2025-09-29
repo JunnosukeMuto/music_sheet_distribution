@@ -5,7 +5,7 @@
   "homepage": "https://junnosukemuto.github.io/music_sheet_distribution/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+  "build": "next build",
     "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "eslint"
