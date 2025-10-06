@@ -13,7 +13,11 @@ export default function Home() {
         />
       </div>
       <div className="flex justify-center mt-4">
-        <h1 className="max-sm:text-xl sm:text-2xl font-bold">武藤淳之助チャンネル　楽譜配布サイト</h1>
+        <div className="flex flex-col items-center space-y-2">
+          <h1 className="max-sm:text-3xl sm:text-4xl font-extrabold flex items-center">武藤淳之助チャンネル</h1>
+          <h1 className="max-sm:text-3xl sm:text-4xl font-extrabold flex items-center">楽譜配布サイト</h1>
+        </div>
+        
       </div>
       <div className="flex justify-center items-center flex-col mt-8 text-center px-8 max-sm:text-sm">
         <p>ご視聴ありがとうございます！</p>
